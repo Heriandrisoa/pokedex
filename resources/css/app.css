@@ -1,0 +1,101 @@
+@import "bootstrap/dist/css/bootstrap.css";
+/* @import 'tailwindcss'; */
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.custom-navbar {
+  background-color: #e3342f;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: white;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #e3342f;
+}
+
+
+.global-box
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pokebox{
+    font-size: 1.4em;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 10em;
+
+    background: linear-gradient(to right,
+            var(--type-1) 50%,
+            var(--type-2) 50%);
+
+    color: var(--color);
+    }
+
+.typebox
+{
+  color :var(--text-color);
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--color);
+}
+
+.info
+{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.legendary{
+  background-color: rgb(58, 168, 150);
+  padding:  10px;
+  border-radius: 10px;
+}
+
+.capacity
+{
+  border: 1px solid var(--color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+}
+
+.type{
+  background-color: var(--color);
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  color: var(--text);
+
+}
+
+.name-move
+{
+  width: 130px;
+}
