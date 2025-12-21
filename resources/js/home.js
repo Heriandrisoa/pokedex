@@ -1,4 +1,5 @@
-let navbar = document.querySelector('.home');
+let navbar = document.querySelector('.home .nav-link');
+console.log(navbar);
 navbar.classList.add('active');
 
 let pokemons = document.querySelectorAll('.pokebox');

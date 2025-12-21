@@ -15,3 +15,5 @@ Route::get('/pokedex/{id1}/compare/{id2}', [PokemonsController::class, 'compare'
 Route::get('/filter', [PokemonsController::class, 'index_filter']);
 Route::get('/api/{id}/stats', [PokemonsController::class, 'api_stats']);
 Route::get('/api/pokedex', [PokemonsController::class,'api_pokedex']);
+Route::get('/capacity/{name}', [PokemonsController::class,'show_capacity']);
+Route::get('/who-got/capacity/{name}', [PokemonsController::class,'who_got_capacity']);

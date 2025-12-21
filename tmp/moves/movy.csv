@@ -1,0 +1,755 @@
+id,name,type,type_damage,pp,power
+36,take down,Normal, Physical,20,90
+37,thrash,Normal, Physical,10,120
+38,double-edge,Normal, Physical,15,120
+39,tail whip,Normal, Status,30,0
+40,poison sting,Poison, Physical,35,15
+41,twineedle,Bug, Physical,20,25
+42,pin missile,Bug, Physical,20,25
+43,leer,Normal, Status,30,0
+44,bite,Dark, Physical,25,60
+45,growl,Normal, Status,40,0
+46,roar,Normal, Status,20,0
+47,sing,Normal, Status,15,0
+48,supersonic,Normal, Status,20,0
+49,sonic boom,Normal, Special,20,0
+50,disable,Normal, Status,20,0
+51,acid,Poison, Special,30,40
+52,ember,Fire, Special,25,40
+53,flamethrower,Fire, Special,15,90
+54,mist,Ice, Status,30,0
+55,water gun,Water, Special,25,40
+56,hydro pump,Water, Special,5,110
+57,surf,Water, Special,15,90
+58,ice beam,Ice, Special,10,90
+59,blizzard,Ice, Special,5,110
+60,psybeam,Psychic, Special,20,65
+61,bubble beam,Water, Special,20,65
+62,aurora beam,Ice, Special,20,65
+63,hyper beam,Normal, Special,5,150
+64,peck,Flying, Physical,35,35
+65,drill peck,Flying, Physical,20,80
+66,submission,Fighting, Physical,20,80
+67,low kick,Fighting, Physical,20,0
+68,counter,Fighting, Physical,20,0
+69,seismic toss,Fighting, Physical,20,0
+70,strength,Normal, Physical,15,80
+71,absorb,Grass, Special,25,20
+72,mega drain,Grass, Special,15,40
+73,leech seed,Grass, Status,10,0
+74,growth,Normal, Status,20,0
+75,razor leaf,Grass, Physical,25,55
+76,solar beam,Grass, Special,10,120
+77,poison powder,Poison, Status,35,0
+78,stun spore,Grass, Status,30,0
+79,sleep powder,Grass, Status,15,0
+80,petal dance,Grass, Special,10,120
+81,string shot,Bug, Status,40,0
+82,dragon rage,Dragon, Special,10,0
+83,fire spin,Fire, Special,15,35
+84,thunder shock,Electric, Special,30,40
+85,thunderbolt,Electric, Special,15,90
+86,thunder wave,Electric, Status,20,0
+87,thunder,Electric, Special,10,110
+88,rock throw,Rock, Physical,15,50
+89,earthquake,Ground, Physical,10,100
+90,fissure,Ground, Physical,5,0
+91,dig,Ground, Physical,10,80
+92,toxic,Poison, Status,10,0
+93,confusion,Psychic, Special,25,50
+94,psychic,Psychic, Special,10,90
+95,hypnosis,Psychic, Status,20,0
+96,meditate,Psychic, Status,40,0
+97,agility,Psychic, Status,30,0
+98,quick attack,Normal, Physical,30,40
+99,rage,Normal, Physical,20,20
+100,teleport,Psychic, Status,20,0
+101,night shade,Ghost, Special,15,0
+102,mimic,Normal, Status,10,0
+103,screech,Normal, Status,40,0
+104,double team,Normal, Status,15,0
+105,recoer,Normal, Status,10,0
+106,harden,Normal, Status,30,0
+107,minimize,Normal, Status,10,0
+108,smokescreen,Normal, Status,20,0
+109,confuse ray,Ghost, Status,10,0
+110,withdraw,Water, Status,40,0
+111,defense curl,Normal, Status,40,0
+112,barrier,Psychic, Status,20,0
+113,light screen,Psychic, Status,30,0
+114,haze,Ice, Status,30,0
+115,reflect,Psychic, Status,20,0
+116,focus energy,Normal, Status,30,0
+117,bide,Normal, Physical,10,0
+118,metronome,Normal, Status,10,0
+119,mirror move,Flying, Status,20,0
+120,self-destruct,Normal, Physical,5,200
+121,egg bomb,Normal, Physical,10,100
+122,lick,Ghost, Physical,30,30
+123,smog,Poison, Special,20,30
+124,sludge,Poison, Special,20,65
+125,bone club,Ground, Physical,20,65
+126,fire blast,Fire, Special,5,110
+127,waterfall,Water, Physical,15,80
+128,clamp,Water, Physical,15,35
+129,swift,Normal, Special,20,60
+130,skull bash,Normal, Physical,10,130
+131,spike cannon,Normal, Physical,15,20
+132,constrict,Normal, Physical,35,10
+133,amnesia,Psychic, Status,20,0
+134,kinesis,Psychic, Status,15,0
+135,soft-boiled,Normal, Status,10,0
+136,high jump kick,Fighting, Physical,10,130
+137,glare,Normal, Status,30,0
+138,dream eater,Psychic, Special,15,100
+139,poison gas,Poison, Status,40,0
+140,barrage,Normal, Physical,20,15
+141,leech life,Bug, Physical,10,80
+142,loely kiss,Normal, Status,10,0
+143,sky attack,Flying, Physical,5,140
+144,transform,Normal, Status,10,0
+145,bubble,Water, Special,30,40
+146,dizzy punch,Normal, Physical,10,70
+147,spore,Grass, Status,15,0
+148,flash,Normal, Status,20,0
+149,psywave,Psychic, Special,15,0
+150,splash,Normal, Status,40,0
+151,acid armor,Poison, Status,20,0
+152,crabhammer,Water, Physical,10,100
+153,explosion,Normal, Physical,5,250
+154,fury swipes,Normal, Physical,15,18
+155,bonemerang,Ground, Physical,10,50
+156,rest,Psychic, Status,10,0
+157,rock slide,Rock, Physical,10,75
+158,hyper fang,Normal, Physical,15,80
+159,sharpen,Normal, Status,30,0
+160,conersion,Normal, Status,30,0
+161,tri attack,Normal, Special,10,80
+162,super fang,Normal, Physical,10,0
+163,slash,Normal, Physical,20,70
+164,substitute,Normal, Status,10,0
+165,struggle,Normal, Physical,150,0
+166,sketch,Normal, Status,10,0
+167,triple kick,Fighting, Physical,10,10
+168,thief,Dark, Physical,25,60
+169,spider web,Bug, Status,10,0
+170,mind reader,Normal, Status,5,0
+171,nightmare,Ghost, Status,15,0
+172,flame wheel,Fire, Physical,25,60
+173,snore,Normal, Special,15,50
+174,curse,Ghost, Status,10,0
+175,flail,Normal, Physical,15,0
+176,conersion 2,Normal, Status,30,0
+177,aeroblast,Flying, Special,5,100
+178,cotton spore,Grass, Status,40,0
+179,reversal,Fighting, Physical,15,0
+180,spite,Ghost, Status,10,0
+181,powder snow,Ice, Special,25,40
+182,protect,Normal, Status,10,0
+183,mach punch,Fighting, Physical,30,40
+184,scary face,Normal, Status,10,0
+185,feint attack,Dark, Physical,20,60
+186,sweet kiss,Fairy, Status,10,0
+187,belly drum,Normal, Status,10,0
+188,sludge bomb,Poison, Special,10,90
+189,mud-slap,Ground, Special,10,20
+190,octazooka,Water, Special,10,65
+191,spikes,Ground, Status,20,0
+192,zap cannon,Electric, Special,5,120
+193,foresight,Normal, Status,40,0
+194,destiny bond,Ghost, Status,5,0
+195,perish song,Normal, Status,5,0
+196,icy wind,Ice, Special,15,55
+197,detect,Fighting, Status,5,0
+198,bone rush,Ground, Physical,10,25
+199,lock-on,Normal, Status,5,0
+200,outrage,Dragon, Physical,10,120
+201,sandstorm,Rock, Status,10,0
+202,giga drain,Grass, Special,10,75
+203,endure,Normal, Status,10,0
+204,charm,Fairy, Status,20,0
+205,rollout,Rock, Physical,20,30
+206,false swipe,Normal, Physical,40,40
+207,swagger,Normal, Status,15,0
+208,milk drink,Normal, Status,10,0
+209,spark,Electric, Physical,20,65
+210,fury cutter,Bug, Physical,20,40
+211,steel wing,Steel, Physical,25,70
+212,mean look,Normal, Status,5,0
+213,attract,Normal, Status,15,0
+214,sleep talk,Normal, Status,10,0
+215,heal bell,Normal, Status,5,0
+216,return,Normal, Physical,20,0
+217,present,Normal, Physical,15,0
+218,frustration,Normal, Physical,20,0
+219,safeguard,Normal, Status,25,0
+220,pain split,Normal, Status,20,0
+221,sacred fire,Fire, Physical,5,100
+222,magnitude,Ground, Physical,30,0
+223,dynamic punch,Fighting, Physical,5,100
+224,megahorn,Bug, Physical,10,120
+225,dragon breath,Dragon, Special,20,60
+226,baton pass,Normal, Status,40,0
+227,encore,Normal, Status,5,0
+228,pursuit,Dark, Physical,20,40
+229,rapid spin,Normal, Physical,40,50
+230,sweet scent,Normal, Status,20,0
+231,iron tail,Steel, Physical,15,100
+232,metal claw,Steel, Physical,35,50
+233,vital throw,Fighting, Physical,10,70
+234,morning sun,Normal, Status,5,0
+235,synthesis,Grass, Status,5,0
+236,moonlight,Fairy, Status,5,0
+237,hidden power,Normal, Special,15,60
+238,cross chop,Fighting, Physical,5,100
+239,twister,Dragon, Special,20,40
+240,rain dance,Water, Status,5,0
+241,sunny day,Fire, Status,5,0
+242,crunch,Dark, Physical,15,80
+243,mirror coat,Psychic, Special,20,0
+244,psych up,Normal, Status,10,0
+245,extreme speed,Normal, Physical,5,80
+246,ancient power,Rock, Special,5,60
+247,shadow ball,Ghost, Special,15,80
+248,future sight,Psychic, Special,10,120
+249,rock smash,Fighting, Physical,15,40
+250,whirlpool,Water, Special,15,35
+251,beat up,Dark, Physical,10,0
+252,fake out,Normal, Physical,10,40
+253,uproar,Normal, Special,10,90
+254,stockpile,Normal, Status,20,0
+255,spit up,Normal, Special,10,0
+256,swallow,Normal, Status,10,0
+257,heat wave,Fire, Special,10,95
+258,hail,Ice, Status,10,0
+259,torment,Dark, Status,15,0
+260,flatter,Dark, Status,15,0
+261,will-o-wisp,Fire, Status,15,0
+262,memento,Dark, Status,10,0
+263,facade,Normal, Physical,20,70
+264,focus punch,Fighting, Physical,20,150
+265,smelling salts,Normal, Physical,10,70
+266,follow me,Normal, Status,20,0
+267,nature power,Normal, Status,20,0
+268,charge,Electric, Status,20,0
+269,taunt,Dark, Status,20,0
+270,helping hand,Normal, Status,20,0
+271,trick,Psychic, Status,10,0
+272,role play,Psychic, Status,10,0
+273,wish,Normal, Status,10,0
+274,assist,Normal, Status,20,0
+275,ingrain,Grass, Status,20,0
+276,superpower,Fighting, Physical,5,120
+277,magic coat,Psychic, Status,15,0
+278,recycle,Normal, Status,10,0
+279,revenge,Fighting, Physical,10,60
+280,brick break,Fighting, Physical,15,75
+281,yawn,Normal, Status,10,0
+282,knock off,Dark, Physical,20,65
+283,endeaor,Normal, Physical,5,0
+284,eruption,Fire, Special,5,150
+285,skill swap,Psychic, Status,10,0
+286,imprison,Psychic, Status,10,0
+287,refresh,Normal, Status,20,0
+288,grudge,Ghost, Status,5,0
+289,snatch,Dark, Status,10,0
+290,secret power,Normal, Physical,20,70
+291,dive,Water, Physical,10,80
+292,arm thrust,Fighting, Physical,20,15
+293,camouflage,Normal, Status,20,0
+294,tail glow,Bug, Status,20,0
+295,luster purge,Psychic, Special,5,70
+296,mist ball,Psychic, Special,5,70
+297,feather dance,Flying, Status,15,0
+298,teeter dance,Normal, Status,20,0
+299,blaze kick,Fire, Physical,10,85
+300,mud sport,Ground, Status,15,0
+301,ice ball,Ice, Physical,20,30
+302,needle arm,Grass, Physical,15,60
+303,slack off,Normal, Status,10,0
+304,hyper oice,Normal, Special,10,90
+305,poison fang,Poison, Physical,15,50
+306,crush claw,Normal, Physical,10,75
+307,blast burn,Fire, Special,5,150
+308,hydro cannon,Water, Special,5,150
+309,meteor mash,Steel, Physical,10,90
+310,astonish,Ghost, Physical,15,30
+311,weather ball,Normal, Special,10,50
+312,aromatherapy,Grass, Status,5,0
+313,fake tears,Dark, Status,20,0
+314,air cutter,Flying, Special,25,60
+315,overheat,Fire, Special,5,130
+316,odor sleuth,Normal, Status,40,0
+317,rock tomb,Rock, Physical,15,60
+318,silver wind,Bug, Special,5,60
+319,metal sound,Steel, Status,40,0
+320,grass whistle,Grass, Status,15,0
+321,tickle,Normal, Status,20,0
+322,cosmic power,Psychic, Status,20,0
+323,water spout,Water, Special,5,150
+324,signal beam,Bug, Special,15,75
+325,shadow punch,Ghost, Physical,20,60
+326,extrasensory,Psychic, Special,20,80
+327,sky uppercut,Fighting, Physical,15,85
+328,sand tomb,Ground, Physical,15,35
+329,sheer cold,Ice, Special,5,0
+330,muddy water,Water, Special,10,90
+331,bullet seed,Grass, Physical,30,25
+332,aerial ace,Flying, Physical,20,60
+333,icicle spear,Ice, Physical,30,25
+334,iron defense,Steel, Status,15,0
+335,block,Normal, Status,5,0
+336,howl,Normal, Status,40,0
+337,dragon claw,Dragon, Physical,15,80
+338,frenzy plant,Grass, Special,5,150
+339,bulk up,Fighting, Status,20,0
+340,bounce,Flying, Physical,5,85
+341,mud shot,Ground, Special,15,55
+342,poison tail,Poison, Physical,25,50
+343,coet,Normal, Physical,25,60
+344,volt tackle,Electric, Physical,15,120
+345,magical leaf,Grass, Special,20,60
+346,water sport,Water, Status,15,0
+347,calm mind,Psychic, Status,20,0
+348,leaf blade,Grass, Physical,15,90
+349,dragon dance,Dragon, Status,20,0
+350,rock blast,Rock, Physical,10,25
+351,shock wave,Electric, Special,20,60
+352,water pulse,Water, Special,20,60
+353,doom desire,Steel, Special,5,140
+354,psycho boost,Psychic, Special,5,140
+355,roost,Flying, Status,10,0
+356,graty,Psychic, Status,5,0
+357,miracle eye,Psychic, Status,40,0
+358,wake-up slap,Fighting, Physical,10,70
+359,hammer arm,Fighting, Physical,10,100
+360,gyro ball,Steel, Physical,5,0
+361,healing wish,Psychic, Status,10,0
+362,brine,Water, Special,10,65
+363,natural gift,Normal, Physical,15,0
+364,feint,Normal, Physical,10,30
+365,pluck,Flying, Physical,20,60
+366,tailwind,Flying, Status,15,0
+367,acupressure,Normal, Status,30,0
+368,metal burst,Steel, Physical,10,0
+369,u-turn,Bug, Physical,20,70
+370,close combat,Fighting, Physical,5,120
+371,payback,Dark, Physical,10,50
+372,assurance,Dark, Physical,10,60
+373,embargo,Dark, Status,15,0
+374,fling,Dark, Physical,10,0
+375,psycho shift,Psychic, Status,10,0
+376,trump card,Normal, Special,5,0
+377,heal block,Psychic, Status,15,0
+378,wring out,Normal, Special,5,0
+379,power trick,Psychic, Status,10,0
+380,gastro acid,Poison, Status,10,0
+381,lucky chant,Normal, Status,30,0
+382,me first,Normal, Status,20,0
+383,copycat,Normal, Status,20,0
+384,power swap,Psychic, Status,10,0
+385,guard swap,Psychic, Status,10,0
+386,punishment,Dark, Physical,5,0
+387,last resort,Normal, Physical,5,140
+388,worry seed,Grass, Status,10,0
+389,sucker punch,Dark, Physical,5,70
+390,toxic spikes,Poison, Status,20,0
+391,heart swap,Psychic, Status,10,0
+392,aqua ring,Water, Status,20,0
+393,magnet rise,Electric, Status,10,0
+394,flare blitz,Fire, Physical,15,120
+395,force palm,Fighting, Physical,10,60
+396,aura sphere,Fighting, Special,20,80
+397,rock polish,Rock, Status,20,0
+398,poison jab,Poison, Physical,20,80
+399,dark pulse,Dark, Special,15,80
+400,night slash,Dark, Physical,15,70
+401,aqua tail,Water, Physical,10,90
+402,seed bomb,Grass, Physical,15,80
+403,air slash,Flying, Special,15,75
+404,x-scissor,Bug, Physical,15,80
+405,bug buzz,Bug, Special,10,90
+406,dragon pulse,Dragon, Special,10,85
+407,dragon rush,Dragon, Physical,10,100
+408,power gem,Rock, Special,20,80
+409,drain punch,Fighting, Physical,10,75
+410,vacuum wave,Fighting, Special,30,40
+411,focus blast,Fighting, Special,5,120
+412,energy ball,Grass, Special,10,90
+413,brave bird,Flying, Physical,15,120
+414,earth power,Ground, Special,10,90
+415,switcheroo,Dark, Status,10,0
+416,giga impact,Normal, Physical,5,150
+417,nasty plot,Dark, Status,20,0
+418,bullet punch,Steel, Physical,30,40
+419,avalanche,Ice, Physical,10,60
+420,ice shard,Ice, Physical,30,40
+421,shadow claw,Ghost, Physical,15,70
+422,thunder fang,Electric, Physical,15,65
+423,ice fang,Ice, Physical,15,65
+424,fire fang,Fire, Physical,15,65
+425,shadow sneak,Ghost, Physical,30,40
+426,mud bomb,Ground, Special,10,65
+427,psycho cut,Psychic, Physical,20,70
+428,zen headbutt,Psychic, Physical,15,80
+429,mirror shot,Steel, Special,10,65
+430,flash cannon,Steel, Special,10,80
+431,rock climb,Normal, Physical,20,90
+432,defog,Flying, Status,15,0
+433,trick room,Psychic, Status,5,0
+434,draco meteor,Dragon, Special,5,130
+435,discharge,Electric, Special,15,80
+436,laa plume,Fire, Special,15,80
+437,leaf storm,Grass, Special,5,130
+438,power whip,Grass, Physical,10,120
+439,rock wrecker,Rock, Physical,5,150
+440,cross poison,Poison, Physical,20,70
+441,gunk shot,Poison, Physical,5,120
+442,iron head,Steel, Physical,15,80
+443,magnet bomb,Steel, Physical,20,60
+444,stone edge,Rock, Physical,5,100
+445,captiate,Normal, Status,20,0
+446,stealth rock,Rock, Status,20,0
+447,grass knot,Grass, Special,20,0
+448,chatter,Flying, Special,20,65
+449,judgment,Normal, Special,10,100
+450,bug bite,Bug, Physical,20,60
+451,charge beam,Electric, Special,10,50
+452,wood hammer,Grass, Physical,15,120
+453,aqua jet,Water, Physical,20,40
+454,attack order,Bug, Physical,15,90
+455,defend order,Bug, Status,10,0
+456,heal order,Bug, Status,10,0
+457,head smash,Rock, Physical,5,150
+458,double hit,Normal, Physical,10,35
+459,roar of time,Dragon, Special,5,150
+460,spacial rend,Dragon, Special,5,100
+461,lunar dance,Psychic, Status,10,0
+462,crush grip,Normal, Physical,5,0
+463,magma storm,Fire, Special,5,100
+464,dark void,Dark, Status,10,0
+465,seed flare,Grass, Special,5,120
+466,ominous wind,Ghost, Special,5,60
+467,shadow force,Ghost, Physical,5,120
+468,hone claws,Dark, Status,15,0
+469,wide guard,Rock, Status,10,0
+470,guard split,Psychic, Status,10,0
+471,power split,Psychic, Status,10,0
+472,wonder room,Psychic, Status,10,0
+473,psyshock,Psychic, Special,10,80
+474,venoshock,Poison, Special,10,65
+475,autotomize,Steel, Status,15,0
+476,rage powder,Bug, Status,20,0
+477,telekinesis,Psychic, Status,15,0
+478,magic room,Psychic, Status,10,0
+479,smack down,Rock, Physical,15,50
+480,storm throw,Fighting, Physical,10,60
+481,flame burst,Fire, Special,15,70
+482,sludge wave,Poison, Special,10,95
+483,quiver dance,Bug, Status,20,0
+484,heavy slam,Steel, Physical,10,0
+485,synchronoise,Psychic, Special,10,120
+486,electro ball,Electric, Special,10,0
+487,soak,Water, Status,20,0
+488,flame charge,Fire, Physical,20,50
+489,coil,Poison, Status,20,0
+490,low sweep,Fighting, Physical,20,65
+491,acid spray,Poison, Special,20,40
+492,foul play,Dark, Physical,15,95
+493,simple beam,Normal, Status,15,0
+494,entrainment,Normal, Status,15,0
+495,after you,Normal, Status,15,0
+496,round,Normal, Special,15,60
+497,echoed voice,Normal, Special,15,40
+498,chip away,Normal, Physical,20,70
+499,clear smog,Poison, Special,15,50
+500,stored power,Psychic, Special,10,20
+501,quick guard,Fighting, Status,15,0
+502,ally switch,Psychic, Status,15,0
+503,scald,Water, Special,15,80
+504,shell smash,Normal, Status,15,0
+505,heal pulse,Psychic, Status,10,0
+506,hex,Ghost, Special,10,65
+507,sky drop,Flying, Physical,10,60
+508,shift gear,Steel, Status,10,0
+509,circle throw,Fighting, Physical,10,60
+510,incinerate,Fire, Special,15,60
+511,quash,Dark, Status,15,0
+512,acrobatics,Flying, Physical,15,55
+513,reflect type,Normal, Status,15,0
+514,retaliate,Normal, Physical,5,70
+515,final gambit,Fighting, Special,5,0
+516,bestow,Normal, Status,15,0
+517,inferno,Fire, Special,5,100
+518,water pledge,Water, Special,10,80
+519,fire pledge,Fire, Special,10,80
+520,grass pledge,Grass, Special,10,80
+521,volt switch,Electric, Special,20,70
+522,struggle bug,Bug, Special,20,50
+523,bulldoze,Ground, Physical,20,60
+524,frost breath,Ice, Special,10,60
+525,dragon tail,Dragon, Physical,10,60
+526,work up,Normal, Status,30,0
+527,electroweb,Electric, Special,15,55
+528,wild charge,Electric, Physical,15,90
+529,drill run,Ground, Physical,10,80
+530,dual chop,Dragon, Physical,15,40
+531,heart stamp,Psychic, Physical,25,60
+532,horn leech,Grass, Physical,10,75
+533,sacred sword,Fighting, Physical,15,90
+534,razor shell,Water, Physical,10,75
+535,heat crash,Fire, Physical,10,0
+536,leaf tornado,Grass, Special,10,65
+537,steamroller,Bug, Physical,20,65
+538,cotton guard,Grass, Status,10,0
+539,night daze,Dark, Special,10,85
+540,psystrike,Psychic, Special,10,100
+541,tail slap,Normal, Physical,10,25
+542,hurricane,Flying, Special,10,110
+543,head charge,Normal, Physical,15,120
+544,gear grind,Steel, Physical,15,50
+545,searing shot,Fire, Special,5,100
+546,techno blast,Normal, Special,5,120
+547,relic song,Normal, Special,10,75
+548,secret sword,Fighting, Special,10,85
+549,glaciate,Ice, Special,10,65
+550,bolt strike,Electric, Physical,5,130
+551,blue flare,Fire, Special,5,130
+552,fiery dance,Fire, Special,10,80
+553,freeze shock,Ice, Physical,5,140
+554,ice burn,Ice, Special,5,140
+555,snarl,Dark, Special,15,55
+556,icicle crash,Ice, Physical,10,85
+557,v-create,Fire, Physical,5,180
+558,fusion flare,Fire, Special,5,100
+559,fusion bolt,Electric, Physical,5,100
+560,flying press,Fighting, Physical,10,100
+561,mat block,Fighting, Status,10,0
+562,belch,Poison, Special,10,120
+563,rototiller,Ground, Status,10,0
+564,sticky web,Bug, Status,20,0
+565,fell stinger,Bug, Physical,25,50
+566,phantom force,Ghost, Physical,10,90
+567,trick-or-treat,Ghost, Status,20,0
+568,noble roar,Normal, Status,30,0
+569,ion deluge,Electric, Status,25,0
+570,parabolic charge,Electric, Special,20,65
+571,forest's curse,Grass, Status,20,0
+572,petal blizzard,Grass, Physical,15,90
+573,freeze-dry,Ice, Special,20,70
+574,disarming voice,Fairy, Special,15,40
+575,parting shot,Dark, Status,20,0
+576,topsy-tury,Dark, Status,20,0
+577,draining kiss,Fairy, Special,10,50
+578,crafty shield,Fairy, Status,10,0
+579,flower shield,Fairy, Status,10,0
+580,grassy terrain,Grass, Status,10,0
+581,misty terrain,Fairy, Status,10,0
+582,electrify,Electric, Status,20,0
+583,play rough,Fairy, Physical,10,90
+584,fairy wind,Fairy, Special,30,40
+585,moonblast,Fairy, Special,15,95
+586,boomburst,Normal, Special,10,140
+587,fairy lock,Fairy, Status,10,0
+588,king's shield,Steel, Status,10,0
+589,play nice,Normal, Status,20,0
+590,confide,Normal, Status,20,0
+591,diamond storm,Rock, Physical,5,100
+592,steam eruption,Water, Special,5,110
+593,hyperspace hole,Psychic, Special,5,80
+594,water shuriken,Water, Special,20,15
+595,mystical fire,Fire, Special,10,75
+596,spiky shield,Grass, Status,10,0
+597,aromatic mist,Fairy, Status,20,0
+598,eerie impulse,Electric, Status,15,0
+599,venom drench,Poison, Status,20,0
+600,powder,Bug, Status,20,0
+601,geomancy,Fairy, Status,10,0
+602,magnetic flux,Electric, Status,20,0
+604,electric terrain,Electric, Status,10,0
+605,dazzling gleam,Fairy, Special,10,80
+606,celebrate,Normal, Status,40,0
+607,hold hands,Normal, Status,40,0
+608,baby-doll eyes,Fairy, Status,30,0
+609,nuzzle,Electric, Physical,20,20
+610,hold back,Normal, Physical,40,40
+611,infestation,Bug, Special,20,20
+612,power-up punch,Fighting, Physical,20,40
+613,oblion wing,Flying, Special,10,80
+35,wrap,Normal, Physical,20,15
+614,thousand arrows,Ground, Physical,10,90
+615,thousand waves,Ground, Physical,10,90
+616,land's wrath,Ground, Physical,10,90
+617,light of ruin,Fairy, Special,5,140
+618,origin pulse,Water, Special,10,110
+619,precipice blades,Ground, Physical,10,120
+620,dragon ascent,Flying, Physical,5,120
+659,shore up,Ground, Status,10,0
+660,first impression,Bug, Physical,10,90
+661,baneful bunker,Poison, Status,10,0
+662,spirit shackle,Ghost, Physical,10,80
+663,darkest lariat,Dark, Physical,10,85
+664,sparkling aria,Water, Special,10,90
+665,ice hammer,Ice, Physical,10,100
+666,floral healing,Fairy, Status,10,0
+667,high horsepower,Ground, Physical,10,95
+668,strength sap,Grass, Status,10,0
+669,solar blade,Grass, Physical,10,125
+670,leafage,Grass, Physical,40,40
+671,spotlight,Normal, Status,15,0
+672,toxic thread,Poison, Status,20,0
+673,laser focus,Normal, Status,30,0
+674,gear up,Steel, Status,20,0
+675,throat chop,Dark, Physical,15,80
+676,pollen puff,Bug, Special,15,90
+677,anchor shot,Steel, Physical,20,80
+678,psychic terrain,Psychic, Status,10,0
+679,lunge,Bug, Physical,15,80
+680,fire lash,Fire, Physical,15,80
+681,power trip,Dark, Physical,10,20
+682,burn up,Fire, Special,5,130
+683,speed swap,Psychic, Status,10,0
+684,smart strike,Steel, Physical,10,70
+685,purify,Poison, Status,20,0
+686,reelation dance,Normal, Special,15,90
+687,core enforcer,Dragon, Special,10,100
+688,trop kick,Grass, Physical,15,70
+689,instruct,Psychic, Status,15,0
+690,beak blast,Flying, Physical,15,100
+691,clanging scales,Dragon, Special,5,110
+692,dragon hammer,Dragon, Physical,15,90
+693,brutal swing,Dark, Physical,20,60
+694,aurora veil,Ice, Status,20,0
+704,shell trap,Fire, Special,5,150
+705,fleur cannon,Fairy, Special,5,130
+706,psychic fangs,Psychic, Physical,10,85
+707,stomping tantrum,Ground, Physical,10,75
+708,shadow bone,Ghost, Physical,10,85
+709,accelerock,Rock, Physical,20,40
+710,liquidation,Water, Physical,10,85
+711,prismatic laser,Psychic, Special,10,160
+712,spectral thief,Ghost, Physical,10,90
+713,sunsteel strike,Steel, Physical,5,100
+714,moongeist beam,Ghost, Special,5,100
+715,tearful look,Normal, Status,20,0
+716,zing zap,Electric, Physical,10,80
+717,nature's madness,Fairy, Special,10,0
+718,multi-attack,Normal, Physical,10,120
+720,mind blown,Fire, Special,5,150
+721,plasma fists,Electric, Physical,15,100
+722,photon geyser,Psychic, Special,5,100
+729,zippy zap,Electric, Physical,10,80
+730,splishy splash,Water, Special,15,90
+731,floaty fall,Flying, Physical,15,90
+732,pika papow,Electric, Special,20,0
+733,bouncy bubble,Water, Special,20,60
+734,buzzy buzz,Electric, Special,20,60
+735,sizzly slide,Fire, Physical,20,60
+736,glitzy glow,Psychic, Special,15,80
+737,baddy bad,Dark, Special,15,80
+738,sappy seed,Grass, Physical,10,100
+739,freezy frost,Ice, Special,10,100
+740,sparkly swirl,Fairy, Special,5,120
+741,veevee volley,Normal, Physical,20,0
+742,double iron bash,Steel, Physical,5,60
+743,max guard,Normal, Status,10,0
+744,dynamax cannon,Dragon, Special,5,100
+745,snipe shot,Water, Special,15,80
+746,jaw lock,Dark, Physical,10,80
+747,stuff cheeks,Normal, Status,10,0
+748,no retreat,Fighting, Status,5,0
+749,tar shot,Rock, Status,15,0
+750,magic powder,Psychic, Status,20,0
+751,dragon darts,Dragon, Physical,10,50
+752,teatime,Normal, Status,10,0
+753,octolock,Fighting, Status,15,0
+754,bolt beak,Electric, Physical,10,85
+755,fishious rend,Water, Physical,10,85
+756,court change,Normal, Status,10,0
+775,clangorous soul,Dragon, Status,5,0
+776,body press,Fighting, Physical,10,80
+777,decorate,Fairy, Status,15,0
+778,drum beating,Grass, Physical,10,80
+779,snap trap,Grass, Physical,15,35
+780,pyro ball,Fire, Physical,5,120
+781,behemoth blade,Steel, Physical,5,100
+782,behemoth bash,Steel, Physical,5,100
+783,aura wheel,Electric, Physical,10,110
+1,pound,Normal, Physical,35,40
+2,karate chop,Fighting, Physical,25,50
+3,double slap,Normal, Physical,10,15
+4,comet punch,Normal, Physical,15,18
+5,mega punch,Normal, Physical,20,80
+6,pay day,Normal, Physical,20,40
+7,fire punch,Fire, Physical,15,75
+8,ice punch,Ice, Physical,15,75
+9,thunder punch,Electric, Physical,15,75
+10,scratch,Normal, Physical,35,40
+11,vise grip,Normal, Physical,30,55
+12,guillotine,Normal, Physical,5,0
+13,razor wind,Normal, Special,10,80
+14,swords dance,Normal, Status,20,0
+15,cut,Normal, Physical,30,50
+16,gust,Flying, Special,35,40
+17,wing attack,Flying, Physical,35,60
+18,whirlwind,Normal, Status,20,0
+19,fly,Flying, Physical,15,90
+20,bind,Normal, Physical,20,15
+21,slam,Normal, Physical,20,80
+22,vine whip,Grass, Physical,25,45
+23,stomp,Normal, Physical,20,65
+24,double kick,Fighting, Physical,30,30
+25,mega kick,Normal, Physical,5,120
+26,jump kick,Fighting, Physical,10,100
+27,rolling kick,Fighting, Physical,15,60
+28,sand attack,Ground, Status,15,0
+29,headbutt,Normal, Physical,15,70
+30,horn attack,Normal, Physical,25,65
+31,fury attack,Normal, Physical,20,15
+32,horn drill,Normal, Physical,5,0
+33,tackle,Normal, Physical,35,40
+34,body slam,Normal, Physical,15,85
+603,happy hour,Normal, Status,30,0
+784,breaking swipe,Dragon, Physical,15,60
+785,branch poke,Grass, Physical,40,40
+786,overdrie,Electric, Special,10,80
+787,apple acid,Grass, Special,10,80
+788,grav apple,Grass, Physical,10,80
+789,spirit break,Fairy, Physical,15,75
+790,strange steam,Fairy, Special,10,90
+791,life dew,Water, Status,10,0
+792,obstruct,Dark, Status,10,0
+793,false surrender,Dark, Physical,10,80
+794,meteor assault,Fighting, Physical,5,150
+795,eternabeam,Dragon, Special,5,160
+796,steel beam,Steel, Special,5,140
+797,expanding force,Psychic, Special,10,80
+798,steel roller,Steel, Physical,5,130
+799,scale shot,Dragon, Physical,20,25
+800,meteor beam,Rock, Special,10,120
+801,shell side arm,Poison, Special,10,90
+802,misty explosion,Fairy, Special,5,100
+803,grassy glide,Grass, Physical,20,70
+804,rising voltage,Electric, Special,20,70
+805,terrain pulse,Normal, Special,10,50
+806,skitter smack,Bug, Physical,10,70
+807,burning jealousy,Fire, Special,5,70
+808,lash out,Dark, Physical,5,75
+809,poltergeist,Ghost, Physical,5,110
+810,corrosive gas,Poison, Status,40,0
+811,coaching,Fighting, Status,10,0
+812,flip turn,Water, Physical,20,60
+813,triple axel,Ice, Physical,10,20
+814,dual wingbeat,Flying, Physical,10,40
+815,scorching sands,Ground, Special,10,70
+816,jungle healing,Grass, Status,10,0
+817,wicked blow,Dark, Physical,5,80
+818,surging strikes,Water, Physical,5,25
+819,thunder cage,Electric, Special,15,80
+820,dragon energy,Dragon, Special,5,150
+821,freezing glare,Psychic, Special,10,90
+822,fiery wrath,Dark, Special,10,90
+823,thunderous kick,Fighting, Physical,10,90
+824,glacial lance,Ice, Physical,5,130
+825,astral barrage,Ghost, Special,5,120
+826,eerie spell,Psychic, Special,5,80

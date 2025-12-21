@@ -41,8 +41,108 @@ class PokemonsController extends Controller
         $pokemon = DB::select('SELECT * FROM pokedex
         JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
         WHERE pokedex.pokedex_number=\''.$id.'\'');
-        // return $pokemon;
-        return view('pokedex.about')->with('pokemon', $pokemon[0]);
+
+
+        $under_id = (int) $id - 1;
+        $upper_id = (int) $id + 1;
+        $under2_id = $under_id - 1;
+        $upper2_id = (int) $upper_id + 1;
+        
+        if( $under_id == 0) $under_id = 1;
+        
+        if ( $under2_id == 0) $under2_id = 1;
+        if ( $upper_id > 482) $upper_id = 482;
+        if ( $upper2_id > 482) $upper2_id = 482; 
+
+
+        $under =  DB::select('SELECT * FROM pokedex
+        JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
+        WHERE pokedex.pokedex_number=\''.$under_id.'\'');
+        
+        $under2 =  DB::select('SELECT * FROM pokedex
+        JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
+        WHERE pokedex.pokedex_number=\''.$under2_id.'\'');
+        
+        $upper =  DB::select('SELECT * FROM pokedex
+        JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
+        WHERE pokedex.pokedex_number=\''.$upper_id.'\'');
+    
+
+        $upper2 =  DB::select('SELECT * FROM pokedex
+        JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
+        WHERE pokedex.pokedex_number=\''.$upper2_id.'\'');
+
+        $frontier = DB::select('SELECT * FROM pokedex
+        JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
+        WHERE pokedex.evolves_from=\''.$pokemon[0]->pokemon_name.'\'');
+        $family = [];
+        $visited = [];
+
+
+        if( $pokemon[0]->can_evolve || $pokemon[0]->evolves_from !=null) {
+            $family[] = $pokemon[0];
+        }    
+    while (!empty($frontier)) {
+
+        $element = array_pop($frontier);
+
+        $id = $element->pokedex_number;
+
+        if (isset($visited[$id])) {
+            continue;
+        }
+
+        $visited[$id] = true;
+        $family[] = $element;
+        $extends = DB::select('SELECT * FROM pokedex JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number WHERE pokedex.evolves_from=\''.$element->pokemon_name.'\''); $extends2 = DB::select('SELECT * FROM pokedex JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number WHERE pokedex.evolves_from=\''.$element->evolves_from.'\'');$extends = DB::select('SELECT * FROM pokedex JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number WHERE pokedex.evolves_from=\''.$element->pokemon_name.'\''); $extends2 = DB::select('SELECT * FROM pokedex JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number WHERE pokedex.evolves_from=\''.$element->evolves_from.'\'');
+        foreach (array_merge($extends, $extends2) as $el) {
+            $eid = $el->pokedex_number;
+
+            if (!isset($visited[$eid])) {
+                $frontier[] = $el;
+            }
+        }
+    }
+
+        $frontier = DB::select('SELECT * FROM pokedex
+        JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number
+        WHERE pokedex.pokemon_name=\''.$pokemon[0]->evolves_from.'\'');
+        $visited = [];
+        
+        while(!empty($frontier))
+        {
+            $element = array_pop($frontier);
+
+            $id = $element->pokedex_number;
+
+            if (isset($visited[$id])) {
+            continue;
+            }
+
+            $visited[$id] = true;
+            $family[] = $element;
+            $extends = DB::select('SELECT * FROM pokedex JOIN poke_profile ON pokedex.pokedex_number = poke_profile.pokedex_number WHERE pokedex.pokemon_name=\''.$element->evolves_from.'\'');            
+            foreach ($extends as $el) {
+                $eid = $el->pokedex_number;
+
+                if (!isset($visited[$eid])) {
+                    $frontier[] = $el;
+                }
+            }
+
+        }
+
+
+    foreach ($family as $key => $value) {
+        if ( $value->pokemon_name == $pokemon[0]->pokemon_name ) {
+            unset($family[$key]);
+        }
+    }
+
+        //return $family;
+        return view('pokedex.about')->with('pokemon', $pokemon[0])
+                                          ->with('family', $family);
+
     }
 
     /**
@@ -121,5 +221,18 @@ class PokemonsController extends Controller
     {
         $pokemons = DB::select('SELECT * FROM pokedex order by pokedex_number');
         return $pokemons;
+    }
+
+    public function show_capacity(string $name)
+    {
+        $capacity = DB::select("SELECT * FROM move_description where name='".$name."'");
+        return $capacity[0];
+        //return view("pokedex.show_capacity")->with("capacity", $capacity[0]);
+    }
+
+    public function who_got_capacity(string $name) {
+
+        $pokemons = DB::select("SELECT p.*,m.move FROM pokedex p JOIN move_final m ON p.pokedex_number = m.pokeId WHERE move = '".$name."'");
+        return view('pokedex.index')->with('pokemons', $pokemons);
     }
 }

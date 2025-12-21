@@ -1,6 +1,7 @@
 import Chart from 'chart.js/auto';
 
-let nav = document.querySelector('#navbarNav-about .general');
+let nav = document.querySelector('.stats .nav-link');
+nav.classList.add('active');
 
 nav.classList.add('active');
 let pokename = document.querySelector('h1').textContent;
@@ -29,7 +30,7 @@ new Chart(stat_canv, {
         datasets: [{
             label:pokename,
             data: Object.values(dico),       // les valeurs deviennent les data
-            borderColor: 'rgba(54, 162, 235, 0.5)'
+            borderColor: 'rgba(252, 68, 83, 0.5)'
         }]
     },
     options: {
@@ -40,7 +41,8 @@ new Chart(stat_canv, {
                     min: 5,
                     max: 260,
                     ticks: {
-                        stepSize: 20
+                        stepSize: 20,
+                        display: false
                     }
                 }
             }

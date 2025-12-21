@@ -19,7 +19,7 @@
         ?>
     </div>
 
-<canvas id='stats' width='800' height='800'></canvas>
+<canvas id='stats'></canvas>
 <table class='table table-hover'>
 <tr>
     <td>

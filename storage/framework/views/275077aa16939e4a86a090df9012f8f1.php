@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <canvas id='stats' width='800' height='800' class='mb-5'></canvas>
+    <canvas id='stats' class='mb-5'></canvas>
     
     <h3> stats of <?php echo e($pokemon1->pokemon_name); ?></h3>
     <table class='table table-hover' id='poke1'>

@@ -35,7 +35,7 @@ new Chart(stat_canv, {
         datasets: [{
             label:pokename1,
             data: Object.values(poke1),       // les valeurs deviennent les data
-            borderColor: 'rgba(54, 162, 235, 0.5)'
+            borderColor: 'rgba(116, 142, 160, 0.5)'
         },
         {
             label:pokename2,
@@ -54,7 +54,8 @@ new Chart(stat_canv, {
                     min: 5,
                     max: 260,
                     ticks: {
-                        stepSize: 20
+                        stepSize: 20,
+                        display:false
                     }
                 }
             }

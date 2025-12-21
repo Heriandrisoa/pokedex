@@ -6,12 +6,12 @@
     <div class="collapse navbar-collapse  justify-content-center" id="navbarNav-about">
       <ul class="navbar-nav">
         <li class="nav-item general">
-          <a class="nav-link" aria-current="page" href="#">general</a>
+          <a class="nav-link active" aria-current="page" href="#">general</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item moves">
           <a class="nav-link" href="/pokedex/{{$pokeId}}/moves">moves</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item stats">
           <a class="nav-link" href="/pokedex/{{$pokeId}}/stats">stats</a>
         </li>
       </ul>
