@@ -9,24 +9,6 @@ async function get_descri(move)
 }
 // deroulement capacity about
 
-document.querySelectorAll(".capacity-link").forEach(button => {
-    button.addEventListener("click", async () => {
-        const container = button.closest(".capacity-container");
-        container.classList.toggle("open");
-
-        let move = container.querySelector('.name-move').textContent;
-        let descri =await get_descri(move);
-        let pp = container.querySelector('.pp');
-        let description = container.querySelector('.description-moves');
-        console.log(descri.pp);
-        pp.innerHTML = `<strong>pp: </strong> ${descri.pp}`;
-        description.innerHTML = `<strong>description: </strong> ${descri.description}`;
-        
-        let who_else = container.querySelector('a');
-        who_else.setAttribute('href', '/who-got/capacity/' + move);
-    });
-});
-
 // ----------------------- //
 //search
 let navbar = document.querySelector('.home');
