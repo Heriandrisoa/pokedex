@@ -1,11 +1,11 @@
 # pokedex
-an interactive pokedex view created with laravel, with main functionnality:
-- show of all pokemons based on their types
-- separated page for each pokemons that shows descriptions,, abilities  list of all moves, and stats, with a functionnality to compare different pokemons based on their stats
-- a filter rubrique that allows to do some advanced search on the pokedex
+An interactive Pokédex view created with Laravel, with the main functionalities:
+- Show of all Pokémon based on their types
+- Separate page for each Pokémon that shows descriptions, abilities, a list of all moves, and stats, with a functionality to compare different Pokémon based on their stats
+- A filter section that allows advanced searches in the Pokédex
+## installation
 
-# installation 
-- clone the repository and run composer install inside the directory for laravel dependencies
-- the databases is deployed on postgresql, restore pokedex.sql with pg_restore 
-- run php artisan serve to run the laravel server and follow the link shown by laravel
-- add /pokedex to view the main page
+- Clone the repository and run composer install inside the directory to install Laravel dependencies
+- The database is deployed on PostgreSQL; restore pokedex.sql with pg_restore
+- Run php artisan serve to start the Laravel server and follow the link shown by Laravel
+- Add /pokedex to view the main page
